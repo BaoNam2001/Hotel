@@ -1,0 +1,185 @@
+/* Tablet >=740px <1024px*/
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .content .content-section{
+        width: 700px;
+        max-width: 100%;
+    }
+    .table-band .member-item{
+        width: 33.33333%;
+    }
+    .list-month{
+        padding: 0 12px;
+    }
+    .list-ticket{
+        padding: 0 6px;
+    }    
+}
+/* Mobile  <740px*/
+@media only screen and (max-width: 739px)  and (min-width: 535px){
+    .header .nav>li{
+        display: block;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+
+    #search{
+        display: none;
+    }
+    
+    .navmenu{
+        display: block;
+    }
+
+    .nav > li > a{
+        display: block;
+    }
+
+    .nav .subnav{
+        position: initial;
+        background-color: rgba(223, 219, 219, 0.952);
+    }
+
+    #home{
+        display: inline-block;
+    }
+
+    .slider .text-content{
+        display: none;
+    }
+    .content .content-section .about-text{
+        margin-bottom: 40px;
+    }
+    .content .content-section{
+        width: 500px;
+        max-width: 100%;
+    }
+    .table-band .member-item{
+        width: 100%;
+        margin: -20px 0px;
+    }
+
+    .list-month{
+        padding: 0 12px;
+    }
+    .list-ticket .ticket{
+        width: 100%;
+        margin: 5px;
+        margin-left: 1px;
+    }
+    
+    .content-section .container .col.span-1-of-2{
+        width: 100%;
+    }
+    .contact .ip1{
+        width: 100%;
+        margin-left: -5px;
+        margin-bottom: -11px;
+        border: 1px solid rgb(204, 204, 204);
+        
+    }
+    .contact .ip2{
+        margin-left: -13px;
+        border: 1px solid rgb(204, 204, 204);
+    }
+    .contact .ip3{
+        margin-left: -5px;
+        border: 1px solid rgb(204, 204, 204);
+    }
+    .contact a{
+        margin-right: 6px;
+    }
+}
+
+
+
+/* PC >=1024px*/
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 534px) {
+    .header .nav>li{
+        display: block;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+
+    #search{
+        display: none;
+    }
+    
+    .navmenu{
+        display: block;
+    }
+
+    .nav > li > a{
+        display: block;
+    }
+
+    .nav .subnav{
+        position: initial;
+        background-color: rgba(223, 219, 219, 0.952);
+    }
+
+    #home{
+        display: inline-block;
+    }
+
+    .slider .text-content{
+        display: none;
+    }
+    .content .content-section .about-text{
+        margin-bottom: 40px;
+    }
+    .content .content-section{
+        width: 500px;
+        max-width: 100%;
+    }
+    .table-band .member-item{
+        width: 100%;
+        margin: -20px 0px;
+    }
+
+    .list-month{
+        padding: 0 12px;
+    }
+    .list-ticket .ticket{
+        width: 100%;
+        margin: 5px;
+        margin-left: 1px;
+    }
+    
+    .content-section .container .col.span-1-of-2{
+        width: 100%;
+    }
+    .contact input{
+        margin: 13px;
+    }
+    .contact-info{
+        margin-left: 15px;
+    }
+    .contact{
+        margin-left: 15px;
+    }
+    .contact .ip1{
+        width: 100%;
+        margin-left: -5px;
+        border: 1px solid rgb(204, 204, 204);
+    }
+    .contact .ip2{
+        margin-left: -5px;
+        border: 1px solid rgb(204, 204, 204);
+        
+    }
+    .contact .ip3{
+        margin-left: -5px;
+        border: 1px solid rgb(204, 204, 204);
+    }
+    .contact a{
+        margin-right: 6px;
+    }
+}
